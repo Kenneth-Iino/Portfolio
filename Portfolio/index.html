@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenneth Iino Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Fancybox CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+
+<!-- Fancybox JS -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/face.png" alt="Kenneth Iino" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Kenneth Iino">Kenneth Iino</h1>
+
+          <p class="title">Computer Science Graduate</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">kangelo.iino@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone (Ph) </p>
+
+              <a href="tel:+12133522795" class="contact-link">09695748124</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">November 14, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location (PH)</p>
+
+              <address>Angeles City, Pampanga</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/kenneth.iino.1/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/kenneth-iino" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Kenneth-Iino" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Internship</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a fourth-year Computer Science student at Holy Angel University with a focus on programming, web development, blockchain and cloud computing. I’m proficient in languages such as Python, Java, and JavaScript, and skilled in areas like database management, software development, and application development. Certified in AWS Cloud Foundations and Cisco's CCNA and Cybersecurity Specialist.
+          </p>
+
+          <p>
+            I am eager to apply my knowledge and grow through hands-on experience. I am currently seeking internship opportunities where I can contribute my technical skills, learn from industry experts, and gain real-world experience.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+            
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Prompt Engineering</h4>
+            
+                <p class="service-item-text">
+                  Crafting optimized AI prompts to generate accurate and high-quality responses.
+                </p>
+              </div>
+            
+            </li>
+            
+            <li class="service-item">
+            
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+            
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+            
+                <p class="service-item-text">
+                  Building responsive and user-friendly websites using modern technologies.
+                </p>
+              </div>
+            
+            </li>
+            
+            <li class="service-item">
+            
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+            
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Development</h4>
+            
+                <p class="service-item-text">
+                  Developing scalable and efficient software solutions for various platforms.
+                </p>
+              </div>
+            
+            </li>
+            
+            <li class="service-item">
+            
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+            
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+            
+                <p class="service-item-text">
+                  Extracting insights from complex datasets to drive informed decision-making.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">IT Certificates</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/cisco.webp" alt="cisco" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>CISCO</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+CyberOps Associate <br> Introduction to Cybersecurity <br> 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/cisco.webp" alt="cisco" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>CISCO <h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+CCNA: Introduction to Networks <br>Network Associate Routing and Switching (CCNA)
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/cisco.webp" alt="cisco" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>CISCO </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+Introduction to IoT <br> Internet of Things
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/aws.png" alt="AWS Logo" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Amazon Web Services</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+AWS Academy Graduate <br> AWS Academy Cloud Foundations
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Softskills Certificates</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/saylor.png" alt="saylor" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Saylor Academy</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+PRDV 215: Mass Communication 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/saylor.png" alt="saylor"  width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Saylor Academy<h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    PRDV 224: Leadership and Teams 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+        </ul>
+
+      </section>
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Holy Angel University</h4>
+
+              <span>2018 — 2025</span>
+
+              <p class="timeline-text">
+                Bachelor’s Degree in Computer Science.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Proverbsville School Inc.</h4>
+
+              <span>2007 — 2018</span>
+
+              <p class="timeline-text">
+                Elementary & Highschool Graduate
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kaizenaire AI Specialist</h4>
+
+              <span>2024 — 2025</span>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Google Student Developer Club (GDSC) Member</h4>
+
+              <span>2022 — 2024</span>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cybersecurity Intelligence Alliance Member</h4>
+
+              <span>2023 — 2024</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+          <h3 class="h3 skills-title">My skills</h3>
+            <div class="skills-grid">
+              
+              <div class="skill-card frontend">
+                <div class="skill-header">
+                  <h3 class="skill-name">Front-End Development</h3>
+                </div>
+                <p class="skill-description">
+                  Building responsive, accessible, and performant user interfaces with modern frameworks and web standards.
+                </p>
+                <div class="skill-highlights">
+                  <span class="skill-highlight">React</span>
+                  <span class="skill-highlight">JavaScript</span>
+                  <span class="skill-highlight">HTML/CSS</span>
+                  <span class="skill-highlight">UI/UX</span>
+                </div>
+              </div>
+              
+              <div class="skill-card backend">
+                <div class="skill-header">
+                  <h3 class="skill-name">Back-End Development</h3>
+                </div>
+                <p class="skill-description">
+                  Creating robust server-side applications with scalable architectures and RESTful API design.
+                </p>
+                <div class="skill-highlights">
+                  <span class="skill-highlight">Node.js</span>
+                  <span class="skill-highlight">Python</span>
+                  <span class="skill-highlight">API Design</span>
+                  <span class="skill-highlight">Microservices</span>
+                </div>
+              </div>
+              
+              <div class="skill-card data">
+                <div class="skill-header">
+                  <h3 class="skill-name">Data Analysis</h3>
+                </div>
+                <p class="skill-description">
+                  Transforming raw data into actionable insights through statistical analysis and visualization techniques.
+                </p>
+                <div class="skill-highlights">
+                  <span class="skill-highlight">Python</span>
+                  <span class="skill-highlight">SQL</span>
+                  <span class="skill-highlight">Data Visualization</span>
+                  <span class="skill-highlight">Statistical Analysis</span>
+                </div>
+              </div>
+              
+              <div class="skill-card ai">
+                <div class="skill-header">
+                  <h3 class="skill-name">AI Prompt Engineering</h3>
+                </div>
+                <p class="skill-description">
+                  Designing effective prompts for AI models to generate high-quality, contextually appropriate outputs.
+                </p>
+                <div class="skill-highlights">
+                  <span class="skill-highlight">LLM Optimization</span>
+                  <span class="skill-highlight">Context Design</span>
+                  <span class="skill-highlight">Output Refinement</span>
+                  <span class="skill-highlight">Chain-of-Thought</span>
+                </div>
+              </div>
+        
+              <div class="skill-card algorithm">
+                <div class="skill-header">
+                  <h3 class="skill-name">Algorithm Development</h3>
+                </div>
+                <p class="skill-description">
+                  Designing efficient computational solutions to complex problems with optimization for performance.
+                </p>
+                <div class="skill-highlights">
+                  <span class="skill-highlight">Data Structures</span>
+                  <span class="skill-highlight">Optimization</span>
+                  <span class="skill-highlight">Complexity Analysis</span>
+                  <span class="skill-highlight">Problem Solving</span>
+                </div>
+              </div>
+        
+              <div class="skill-card software">
+                <div class="skill-header">
+                  <h3 class="skill-name">Software Development</h3>
+                </div>
+                <p class="skill-description">
+                  Building robust, maintainable software with focus on architecture, testing, and development methodologies.
+                </p>
+                <div class="skill-highlights">
+                  <span class="skill-highlight">OOP</span>
+                  <span class="skill-highlight">Git</span>
+                  <span class="skill-highlight">CI/CD</span>
+                  <span class="skill-highlight">Agile/Scrum</span>
+                </div>
+              </div>
+        
+              <div class="skill-card database">
+                <div class="skill-header">
+                  <h3 class="skill-name">Database Management</h3>
+                </div>
+                <p class="skill-description">
+                  Designing, implementing, and optimizing database systems for performance, security, and scalability.
+                </p>
+                <div class="skill-highlights">
+                  <span class="skill-highlight">SQL</span>
+                  <span class="skill-highlight">NoSQL</span>
+                  <span class="skill-highlight">Data Modeling</span>
+                  <span class="skill-highlight">Query Optimization</span>
+                </div>
+              </div>
+        
+              <div class="skill-card blockchain">
+                <div class="skill-header">
+                  <h3 class="skill-name">Blockchain</h3>
+                </div>
+                <p class="skill-description">
+                  Developing decentralized applications and smart contracts with focus on security and transaction integrity.
+                </p>
+                <div class="skill-highlights">
+                  <span class="skill-highlight">Smart Contracts</span>
+                  <span class="skill-highlight">Ethereum</span>
+                  <span class="skill-highlight">Web3</span>
+                  <span class="skill-highlight">DApps</span>
+                </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <section class="blog-posts">        
+          <h3 class="h3 blo-title">Coding Projects</h3><br>
+            <ul class="blog-posts-list">
+  
+              <li class="blog-post-item">
+                <a href="https://github.com/VurnKambal/AngeliteForecast">
+  
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/proj1.jpeg" alt="Landing page" loading="lazy">
+                  </figure>
+  
+                  
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">ANGELITE FORECAST</h3>
+                    <div class="blog-meta">
+                      <p class="blog-category">Thesis Project</p>
+  
+                      <span class="dot"></span>
+  
+                      <time datetime="2022-02-23">November 2024</time>
+                    </div>
+  
+                    <p class="blog-text">
+                      Angelite Forecast is a dedicated browser-based system designed to forecast student enrollment for various college programs at Holy Angel University. This website leverages both traditional statistical methods and advanced machine learning algorithms to provide accurate and insightful predictions for enrollment numbers through key features such as demographic trends, historical enrollment data, and economic indicators like the Consumer Price Index and Inflation Rate.
+                    </p>
+  
+                  </div>
+  
+                </a>
+              </li>
+  
+              <li class="blog-post-item">
+                <a href="https://github.com/VurnKambal/InvocationNFT">
+  
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/proj2.jpeg" alt="Landing Page2" loading="lazy">
+                  </figure>
+  
+                  <div class="blog-content">
+                    <h3 class="h3 blog-item-title">Invocation: Genshin Impact Inspired Gacha NFT</h3>
+                    <div class="blog-meta">
+                      <p class="blog-category">Blockchain NFT</p>
+  
+                      <span class="dot"></span>
+  
+                      <time datetime="2022-02-23">November 2024</time>
+                    </div>
+                    <p class="blog-text">
+                      This project aims to establish a more accessible and engaging NFT marketplace designed for both artists and collectors. By addressing the process involved in minting and selling NFTs, the platform reduces the barriers often faced by artists, enabling them to focus on their creativity. These technical barriers include the need for a solid understanding of blockchain technology.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+  
+          </section>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="internship">
+
+        <header>
+          <h2 class="h2 article-title">Internship</h2>
+        </header>
+
+        <section class="blog-posts">        
+          <section class="about-text">
+          <p>
+            For this internship, I successfully completed various projects showcasing my versatile skill set. I thoroughly revised graphic designs for social media accounts and documents, making multiple content adjustments and refinements until achieving final approval. I also produced Koala AI videos to complement these visual assets. <br><br> In data management, I systematically built a comprehensive database of multiple companies and manufacturers in Singapore. Throughout all projects, I maintained detailed progress documentation and consistent daily reporting, demonstrating my commitment to accountability and quality work delivery.
+        </section>
+        <h3 class="h3 blo-title">Sample of Published Blogs</h3><br>
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://kaizenaire.com/sg/best-cafe-locations-in-bugis/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/cafe.jpg" alt="best cafe location in bugis" loading="lazy">
+                </figure>
+
+                
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">Best Cafe Location in Bugis, Singapore</h3>
+                  <div class="blog-meta">
+                    <p class="blog-category">Kaizenaire</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">January 2025</time>
+                  </div>
+
+                  <p class="blog-text">
+                    Bugis is a vibrant area in Singapore known for its rich culture and lively atmosphere. The best café locations in Bugis offer a mix of unique vibes, delicious food, and inviting environments.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://kaizenaire.com/sg/best-late-night-food-locations-in-singapore-midnight-bites/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/food.jpg" alt="Best Late Night Food Locations in Singapore" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">Best Late Night Food Locations in Singapore</h3>
+                  <div class="blog-meta">
+                    <p class="blog-category">Kaizenaire</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">January 2025</time>
+                  </div>
+                  <p class="blog-text">
+                    When the night falls in Singapore, a whole new world of food awakens. You may find yourself craving a tasty meal after a late night out or just wanting to enjoy some delicious bites.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+        </section>
+<br>
+
+      </section>
+      <h3 class="h3 blo-title">Sample of Published Infographics</h3><br>
+      
+        <ul class="project-list">
+          <li class="project-item active" data-filter-item data-category="First Infographic">
+            <!-- Visible Image -->
+            <a href="./assets/images/T1.png" data-fancybox="gallery" data-caption="Twitter Infographic 1">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/T1.png" alt="Twitter" loading="lazy">
+              </figure>
+              <h3 class="project-title">Twitter Infographic</h3>
+              <p class="project-category">Top 5 Cafes in Bugis</p>
+            </a>
+          </li>
+
+          <li class="project-item active" data-filter-item data-category="Second Infographic">
+            <!-- Visible Image -->
+            <a href="./assets/images/1.png" data-fancybox="gallery2" data-caption="Instagram Infographic 1">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/1.png" alt="Instagram" loading="lazy">
+              </figure>
+              <h3 class="project-title">Instagram Infographic</h3>
+              <p class="project-category">Top 5 Cafes in Bugis</p>
+            </a>
+          </li>
+
+          <li class="project-item active" data-filter-item data-category="Third Infographic">
+            <!-- Visible Image -->
+            <a href="./assets/images/FB Cafe.png" data-fancybox="gallery3" data-caption="Facebook Infographic">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="./assets/images/FB Cafe.png" alt="Facebook" loading="lazy">
+              </figure>
+              <h3 class="project-title">Facebook Infographic</h3>
+              <p class="project-category">Top 5 Cafes in Bugis</p>
+            </a>
+          </li>
+
+        </ul>
+        
+        <!-- Hidden Images (Outside <ul>) -->
+        <a href="./assets/images/T2.png" data-fancybox="gallery" data-caption="Twitter Infographic 2" style="display: none;"></a>
+        <a href="./assets/images/T3.png" data-fancybox="gallery" data-caption="Twitter Infographic 3" style="display: none;"></a>
+        <a href="./assets/images/T4.png" data-fancybox="gallery" data-caption="Twitter Infographic 4" style="display: none;"></a>
+        <a href="./assets/images/T5.png" data-fancybox="gallery" data-caption="Twitter Infographic 5" style="display: none;"></a>  
+        <a href="./assets/images/T6.png" data-fancybox="gallery" data-caption="Twitter Infographic 6" style="display: none;"></a>  
+        <a href="./assets/images/T7.png" data-fancybox="gallery" data-caption="Twitter Infographic 7" style="display: none;"></a>
+        
+        <a href="./assets/images/2.png" data-fancybox="gallery2" data-caption="Instagram Infographic 2" style="display: none;"></a>
+        <a href="./assets/images/3.png" data-fancybox="gallery2" data-caption="Instagram Infographic 3" style="display: none;"></a>
+        <a href="./assets/images/4.png" data-fancybox="gallery2" data-caption="Instagram Infographic 4" style="display: none;"></a>
+        <a href="./assets/images/5.png" data-fancybox="gallery2" data-caption="Instagram Infographic 5" style="display: none;"></a>  
+        <a href="./assets/images/6.png" data-fancybox="gallery2" data-caption="Instagram Infographic 6" style="display: none;"></a>  
+        <a href="./assets/images/7.png" data-fancybox="gallery2" data-caption="Instagram Infographic 7" style="display: none;"></a>   
+      </ul>
+      
+      
+
+      </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7703.3551625677865!2d120.60165528584005!3d15.121088249131056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f3cce3274827%3A0x870d3525ff26e89a!2sEssel%20Park%20Subdivision%2C%20San%20Fernando%2C%20Pampanga!5e0!3m2!1sen!2sph!4v1740380378765!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  <script>
+    Fancybox.bind("[data-fancybox='gallery']", {
+      Thumbs: {
+        autoStart: true, // Show thumbnails at start
+      },
+      Toolbar: {
+        display: ["zoom", "thumbs", "close"], // Controls available in the popup
+      },
+    });
+  </script>
+  
+</body>
+
+</html>
